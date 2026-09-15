@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>AvaFin</title>
+  <meta name="theme-color" content="#F5F6F8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #F3F4F6;
+      --card: #FFFFFF;
+      --title: #111827;
+      --btn: #E31C23;
+      --btn-hover: #C4161C;
+      --shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--title);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 430px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 18px 14px 28px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0 18px;
+    }
+
+    .logo {
+      height: 36px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 14px 12px 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 0;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: var(--title);
+      margin-bottom: 8px;
+      min-height: 1.2em;
+    }
+
+    .card-image-wrap {
+      width: 100%;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      min-height: 120px;
+    }
+
+    .card-image {
+      width: 100%;
+      max-width: 168px;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: var(--btn);
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: 8px;
+      padding: 12px 10px;
+      transition: background 0.15s ease, transform 0.1s ease;
+    }
+
+    .cta:hover { background: var(--btn-hover); }
+    .cta:active { transform: scale(0.98); }
+
+    @media (max-width: 360px) {
+      .card-title { font-size: 14px; }
+      .cta { font-size: 13px; padding: 11px 8px; }
+      .card-image { max-width: 148px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <img class="logo" src="images/logo.png" alt="AvaFin" />
+    </header>
+
+    <main class="grid">
+      <article class="card">
+        <h2 class="card-title">Plamigo</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/plamigo.png" alt="Plamigo" />
+        </div>
+        <a class="cta" href="https://track.s17y02n20c25.space/click?pid=458&offer_id=1344" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">CrediPleno</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/credipleno.png" alt="CrediPleno" />
+        </div>
+        <a class="cta" href="https://track.sync.deals/click?pid=458&offer_id=1340" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Credivenus</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/credivenus.png" alt="Credivenus" />
+        </div>
+        <a class="cta" href="https://track.sync.deals/click?pid=458&offer_id=1339" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Lanaclick</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/lanaclick.png" alt="Lanaclick" />
+        </div>
+        <a class="cta" href="https://track.s17y02n20c25.space/click?pid=458&offer_id=1336" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">VasXLana</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/vasxlana.png" alt="VasXLana" />
+        </div>
+        <a class="cta" href="https://track.sync.deals/click?pid=458&offer_id=1303" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Fiesta Credito</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/fiesta-credito.png" alt="Fiesta Credito" />
+        </div>
+        <a class="cta" href="https://track.sync.deals/click?pid=458&offer_id=1271" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Cozmo</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/cozmo.png" alt="Cozmo" />
+        </div>
+        <a class="cta" href="https://track.s17y02n20c25.space/click?pid=458&offer_id=206" rel="noopener noreferrer">OBTENER</a>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">TurboPeso</h2>
+        <div class="card-image-wrap">
+          <img class="card-image" src="images/turbopeso.png" alt="TurboPeso" />
+        </div>
+        <a class="cta" href="https://track.sync.deals/click?pid=458&offer_id=118" rel="noopener noreferrer">OBTENER</a>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
